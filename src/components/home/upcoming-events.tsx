@@ -13,7 +13,9 @@ const UpcomingEvents = () => {
     GetFieldsFromList<DashboardCalendarUpcomingEventsQuery>
   >({
     resource: "events",
-    pagination: { pageSize: 5 },
+    pagination: {
+      pageSize: 5,
+    },
     sorters: [
       {
         field: "startDate",

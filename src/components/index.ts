@@ -1,5 +1,5 @@
 import UpcomingEvents from "./home/upcoming-events";
-import DashboardDealsChart from "./home/dashboard-deals-chart";
+import DealsChart from "@/components/home/deals-chart";
 import UpcomingEventsSkeleton from "./skeleton/upcoming-events";
 import AccordionHeaderSkeleton from "./skeleton/accordion-header";
 import KanbanColumnSkeleton from "./skeleton/kanban";
@@ -8,7 +8,7 @@ import ProjectCardSkeleton from "./skeleton/project-card";
 
 export {
   UpcomingEvents,
-  DashboardDealsChart,
+  DealsChart,
   UpcomingEventsSkeleton,
   AccordionHeaderSkeleton,
   KanbanColumnSkeleton,
